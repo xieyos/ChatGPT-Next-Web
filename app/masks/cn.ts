@@ -20,6 +20,32 @@ export const CN_MASKS: BuiltinMask[] = [
       presence_penalty: 0,
       frequency_penalty: 0,
       sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
+    name: "xieyos-free",
+    context: [
+      {
+        id: "tWYeWqPSGZkxqC32Zy5dU",
+        role: "user",
+        content:
+            "我希望你担任高级前端开发人员，使用中文回复我的问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo-0301",
+      temperature: 1,
+      max_tokens: 3000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
       historyMessageCount: 0,
       compressMessageLengthThreshold: 1000,
     },
