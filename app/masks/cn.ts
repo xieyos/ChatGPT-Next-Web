@@ -2,6 +2,164 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
+    avatar: "gpt-bot",
+    name: "xieyos-gemini-1.5-flash",
+    context: [
+      {
+        id: "tWYeWqPSGZkxqC35Zy5dU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gemini-1.5-flash-latest",
+      temperature: 1,
+      max_tokens: 128000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 30,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
+    name: "xieyos-gemini-1.5-pro",
+    context: [
+      {
+        id: "tWYeWqPSGZkxqC31Zy5dU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gemini-1.5-pro-latest",
+      temperature: 1,
+      max_tokens: 128000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 30,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
+    name: "xieyos-qwen",
+    context: [
+      {
+        id: "tWYeWqPSGZkxWC31Zy5dU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "qwen:7b",
+      temperature: 1,
+      max_tokens: 128000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 30,
+      compressMessageLengthThreshold: 3000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
+    name: "xieyos-gpt-4o-mini",
+    context: [
+      {
+        id: "tWYeWqPSGZkxWC31Zk5sU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-4o-mini",
+      temperature: 1,
+      max_tokens: 128000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 30,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },{
+    avatar: "gpt-bot",
+    name: "xieyos-gpt-4o",
+    context: [
+      {
+        id: "tWYeWqPSGZkxWC31Zy5sU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-4o",
+      temperature: 1,
+      max_tokens: 12800,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 20,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },
+  {
+    avatar: "gpt-bot",
+    name: "xieyos-gpt4",
+    context: [
+      {
+        id: "tWYeWqPSGZkxWC31Zk5gU",
+        role: "user",
+        content:
+            "我希望你担任高级全栈开发人员，使用中文回复我的所有问题。我将描述您将使用以下工具编写项目代码的项目详细信息：CentOS7、Java8、SpringBoot、SpringCloud、MySQL、Maven、Docker、Kubernetes、fastjson、mapstruct、JSP、VUE、Android、uni-app",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-4-turbo",
+      temperature: 1,
+      max_tokens: 6000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 8,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: false,
+    createdAt: 1704692353015,
+    hideContext: true,
+  },
+  {
     avatar: "1f5bc-fe0f",
     name: "以文搜图",
     context: [
@@ -33,7 +191,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -59,7 +217,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -85,7 +243,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -111,7 +269,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -137,7 +295,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -163,7 +321,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -189,7 +347,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -215,7 +373,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -247,7 +405,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 0.5,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -273,7 +431,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -306,7 +464,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -339,7 +497,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -397,7 +555,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-1.5-flash-latest",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
